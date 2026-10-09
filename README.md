@@ -2,15 +2,7 @@
 
 Public privacy policy and data deletion instructions for the Bruno Virality Finder Meta (Instagram) developer app. The whole policy is the single file `index.html`, so it can be served from any static host.
 
-## Before publishing: fill in the placeholders
-
-Search `index.html` for `[YOUR` and replace:
-
-- `[YOUR FULL NAME]` (2 places)
-- `[CITY, COUNTRY]` (1 place)
-- `[YOUR_CONTACT_EMAIL]` (4 places, two of them inside `mailto:` links)
-
-Also check the effective date at the top and the 12‑month retention period in section 6.
+Operator: Prince Soni, Indore, India · Contact: princezopis@gmail.com
 
 ## Get a free public URL
 
