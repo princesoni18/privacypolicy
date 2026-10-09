@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Bruno Virality Finder</title>
+<meta name="description" content="Privacy policy and data deletion instructions for the Bruno Virality Finder app.">
+<style>
+  :root { --bg:#fbfaf8; --fg:#1d1d1f; --muted:#5f6368; --line:#e4e1dc; --accent:#2457c5; --note:#fff6d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#ececec; --muted:#a3a3a3; --line:#2c2c2c; --accent:#7fa6ff; --note:#3a3214; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  li { margin: 4px 0; }
+  code { font-size: .92em; }
+  .todo { background: var(--note); padding: 0 4px; border-radius: 3px; }
+  nav ol { columns: 2; padding-left: 1.25rem; margin: 0; }
+  @media (max-width: 560px) { nav ol { columns: 1; } }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Bruno Virality Finder · Effective date: 9 October 2026 · Last updated: 9 October 2026</p>
+
+  <p>This policy explains what data the Bruno Virality Finder app ("the App", "we") accesses, how it is used, and how you can ask for it to be deleted. The App is operated by <span class="todo">[YOUR FULL NAME]</span>, an individual based in <span class="todo">[CITY, COUNTRY]</span>, as a personal, non-commercial research tool.</p>
+
+  <nav aria-label="Contents">
+    <ol>
+      <li><a href="#what">What the App does</a></li>
+      <li><a href="#collect">Data the App accesses</a></li>
+      <li><a href="#not">Data the App does not collect</a></li>
+      <li><a href="#use">How data is used</a></li>
+      <li><a href="#share">Sharing and third parties</a></li>
+      <li><a href="#store">Storage, security and retention</a></li>
+      <li><a href="#deletion">Data deletion instructions</a></li>
+      <li><a href="#rights">Your rights</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="what">1. What the App does</h2>
+  <p>The App is a personal tool used by its operator to research which content is performing well in a specific niche (engineering and technology humour for an Indian audience). Once a day it reads publicly available post information from Instagram and YouTube (and public discussions on Reddit and Hacker News), ranks the posts that are growing fastest, and produces a private report for the operator. The App has no end users other than its operator, shows no ads, and is not sold or offered as a service.</p>
+
+  <h2 id="collect">2. Data the App accesses</h2>
+  <p><strong>From Instagram, through the Meta Instagram Graph API:</strong></p>
+  <ul>
+    <li>The operator's own Instagram Business or Creator account ID, obtained from the operator's own access token, which is needed to make API calls.</li>
+    <li>Public information about other <strong>Instagram Business and Creator accounts</strong>, via the Business Discovery feature: username, display name, follower count, media count.</li>
+    <li>Public metadata of those accounts' posts and of top posts for public hashtags, via Hashtag Search: post ID, caption, media type, like count, comment count, permalink and timestamp.</li>
+  </ul>
+  <p><strong>From YouTube, through the YouTube Data API:</strong> public video and channel metadata such as titles, descriptions, view, like and comment counts, durations, publish times, channel names and subscriber counts, and public captions where available.</p>
+  <p><strong>From Reddit and Hacker News:</strong> public post titles, scores and comment counts.</p>
+  <p><strong>Credentials:</strong> the operator's own Instagram access token and API keys. These belong to the operator, not to any third party.</p>
+
+  <h2 id="not">3. Data the App does not collect</h2>
+  <ul>
+    <li>No data from private Instagram accounts, and no data from personal (non-Business, non-Creator) Instagram accounts.</li>
+    <li>No direct messages, stories, follower lists, email addresses, phone numbers, passwords or payment information.</li>
+    <li>No login from members of the public. Nobody other than the operator signs in to the App, so no other person's access token is ever collected.</li>
+    <li>No cookies, analytics or tracking on this page or in the App.</li>
+  </ul>
+
+  <h2 id="use">4. How data is used</h2>
+  <p>Data is used only to rank content by how fast it is growing and to describe the format of high-performing posts, so the operator can plan their own original content. Data is not used for advertising, profiling individuals, targeting, or any automated decision about a person.</p>
+
+  <h2 id="share">5. Sharing and third parties</h2>
+  <p>We do not sell, rent, trade or share data with anyone. Data is processed using these services, which have their own privacy policies:</p>
+  <ul>
+    <li><strong>Meta Platforms</strong> (Instagram Graph API), the source of Instagram data.</li>
+    <li><strong>Google</strong> (YouTube Data API), the source of YouTube data.</li>
+    <li><strong>GitHub</strong> (GitHub Actions), where the daily job runs and where reports are stored in a repository controlled by the operator.</li>
+    <li><strong>Vercel</strong>, which hosts the operator's report dashboard.</li>
+    <li><strong>Optional AI summarisation</strong> (Google Gemini or Groq free tiers, or a local model): if enabled by the operator, the public title, caption, description and statistics of a top-ranked post may be sent to that provider to generate a short format analysis. No credentials or personal data are sent.</li>
+  </ul>
+  <p>We may disclose information if required by law.</p>
+
+  <h2 id="store">6. Storage, security and retention</h2>
+  <ul>
+    <li>The operator's Instagram access token and API keys are stored as encrypted GitHub Actions secrets and are never written to reports, logs or the repository.</li>
+    <li>Public post metadata and daily view counts are kept in a small database and in daily report files in a repository controlled by the operator. They are used to measure how fast posts grow over time.</li>
+    <li>Snapshot data is kept for as long as it is useful for trend research, and no longer than 12 months; it can be deleted at any time as described below.</li>
+  </ul>
+
+  <h2 id="deletion">7. Data deletion instructions</h2>
+  <p>If you are an Instagram account owner and want any information about your account or posts removed from the App's records:</p>
+  <ol>
+    <li>Email <a href="mailto:[YOUR_CONTACT_EMAIL]" class="todo">[YOUR_CONTACT_EMAIL]</a> with the subject <strong>"Data deletion request"</strong> and your Instagram username (or the link to the post).</li>
+    <li>We will delete all stored records about that account and its posts from the database and from future reports, add the account to an exclusion list so it is not collected again, and confirm by email within 30 days.</li>
+  </ol>
+  <p>The App does not use Facebook or Instagram Login for anyone other than its operator. If you have connected the App to your own account, you can also remove it at any time in Instagram under <em>Settings → Website permissions → Apps and websites</em>, or in Facebook under <em>Settings &amp; privacy → Settings → Apps and websites</em>. Removing access revokes the App's token immediately; then email us as above to have any stored data deleted.</p>
+
+  <h2 id="rights">8. Your rights</h2>
+  <p>Depending on where you live (for example under India's Digital Personal Data Protection Act, 2023, or the EU/UK GDPR), you may have the right to ask what data we hold about you, to correct it, or to have it deleted. Email us using the contact below and we will respond within 30 days.</p>
+
+  <h2 id="children">9. Children</h2>
+  <p>The App is not directed at children and does not knowingly collect data about anyone under 13 (or the minimum age in your country).</p>
+
+  <h2 id="changes">10. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new "Last updated" date.</p>
+
+  <h2 id="contact">11. Contact</h2>
+  <p><span class="todo">[YOUR FULL NAME]</span><br>
+     Email: <a href="mailto:[YOUR_CONTACT_EMAIL]" class="todo">[YOUR_CONTACT_EMAIL]</a></p>
+
+  <footer>Bruno Virality Finder is an independent personal project and is not affiliated with or endorsed by Meta, Instagram, Google or YouTube.</footer>
+</main>
+</body>
+</html>
